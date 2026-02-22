@@ -7,5 +7,5 @@ The project view is heavily inspired by Playstation Store´s layout, although i 
 - Copyright disclaimer:
 This project is a non-commercial project. The age rating icons used are for aesthetic/demonstration purposes only. This project is not officially rated by or affiliated with the ESRB.
 
--To execute: 
+- To execute: 
 The most easy way is downloading and extracting the ZIP file. Then, open the Index HTML file in any browser.
