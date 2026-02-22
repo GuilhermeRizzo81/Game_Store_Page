@@ -1,4 +1,4 @@
-##Game Store Page
+# Game Store Page
 
 This is a simple front-end project i made using HTML and CSS. It simulates a game store page for the game Project One III: Azure Butterfly REMAKE. It is not the entire website of the fictional game store (called Diamond Store), but i will be looking to do a more complex and big project soon. 
 
