@@ -688,4 +688,11 @@ footer {
 
 .Diamond-copyright p {
     text-decoration: underline #FFF;
+    text-align: center;
+}
+
+.Diamond-copyright p:last-child {
+    margin-top: 20px;
+    opacity: .7;
+    font-size: .8rem;
 }
