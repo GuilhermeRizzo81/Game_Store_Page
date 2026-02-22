@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script defer src="JS/main.js"></script>
+    
+    <script src="https://kit.fontawesome.com/fa9ea0e2f3.js" crossorigin="anonymous"></script>
+    <title>Project One III: Azure Butterfly REMAKE</title>
+</head>
+<body>
+    <header>
+        <div class="company-ribbon">
+            <h2>Diamond</h2>
+        </div>
+
+        <div class="sticky-container">
+            
+            <nav class="company-nav">
+                <div class="company-nav-left">
+                    <div class="diamond"></div>
+                    <a href="#" id="games">Games <span class="arrow-down-header">^</span></a>
+                    <a href="#" id="acessories">Acessories <span class="arrow-down-header">^</span></a>
+                    <a href="#" id="news">News <span class="arrow-down-header">^</span></a>
+                </div>
+
+                
+                <div class="company-nav-right">
+                    <button class="login-button">Sign in</button>
+                    <input class="hidden" id="store-search-input" type="text" placeholder="Search for games or expansions...">
+                    <i class="fa-solid fa-magnifying-glass" id="store-search-btn"></i>
+                </div>
+            </nav>
+
+            <nav class="company-nav-expansion">
+                <div class="nav-expansion-options">
+                    <i class="fa-solid fa-computer"></i>
+                    <span>lorem Ipsum</span>
+                </div>
+
+                <div class="nav-expansion-options">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>lorem Ipsum</span>
+                </div>
+
+                <div class="nav-expansion-options">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>lorem Ipsum</span>
+                </div>
+            </nav>
+
+            <nav class="company-store-nav">
+                <div class="store-logo-container">
+                    <div class="diamond store-logo">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    
+                    <h2>Diamond Store</h2>
+                </div>
+
+                <div class="nav-center">
+                    <a href="#">Latest</a>
+                    <a href="#">Subscriptions</a>
+                    <a href="#">Deals</a>
+                    <a href="#">Collections</a>
+                    <a href="#">Browse</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="game-image"></div>
+        <div id="general-description-container">
+            
+            <div id="description-content-1">
+                <h1>Project One III: Azure Butterfly REMAKE</h1>
+                <p class="game-details">SILVER Games</p>
+                <p class="game-details">3/12/2016 03:00</p>
+                <ul id="desc-avaiable-platforms">
+                    <li>PC</li>
+                    <li>lorem Ipsum 5</li>
+                </ul>
+
+                <p id="game-price">$39.99</p>
+                <div id="game-desc-btn-container">
+                    <button id="buy-btn">Buy</button>
+                    <button id="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div id="description-content-2">
+                <ul id="desc-list-1">
+                    <li><i class="fa-solid fa-globe"></i> Offline</li>
+                    <li><i class="fa-solid fa-user"></i> 1 player</li>
+                    <li><i class="fa-solid fa-universal-access"></i> Accesibility Features (6)</li>
+                </ul>
+                <ul id="desc-list-2">
+                    <p>Lorem Ipsum 5 Version</p>
+                    <li><i class="fa-solid fa-gamepad"></i> Vibration function</li>
+                    <li><i class="fa-solid fa-list"></i> Additional Mode</li>
+                </ul>
+                <div class="ERSB-classification">
+                    <img src="assets/img/ESRB_Mature_17.svg" alt="ERSB 17 mature">
+                    <p>Blood, Violence</p>
+                </div>
+            </div>
+        </div>
+
+        <section id="rating-container">
+            <p class="general-container-title">Ratings and Reviews</p>
+
+            <div class="graph-container">
+                <div class="graph-heading">
+                    <p>Global Players Rating</p>
+                    <div class="global-average">
+                        <span id="global-average-number">4.45</span>
+                        <div class="global-average-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="graph-main">
+
+                    <li>
+                        <div class="stars-set">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="inner-percentace-bar" id="bar-1"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="stars-set">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="inner-percentace-bar" id="bar-2"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="stars-set">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="inner-percentace-bar" id="bar-3"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="stars-set">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="inner-percentace-bar" id="bar-4"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="stars-set">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="inner-percentace-bar" id="bar-5"></div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="reviews-container">
+                <ul class="reviews-query">
+                    <li>
+                        <label>Editions:</label>
+                        <select>
+                            <option>All Editions</option>
+                            <option>Project One III: Azure Butterfly REMAKE</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label>Filter By:</label>
+                        <select>
+                            <option>All reviews</option>
+                            <option>5 stars</option>
+                            <option>4 stars</option>
+                            <option>3 stars</option>
+                            <option>2 stars</option>
+                            <option>1 stars</option>
+                        </select>
+                    </li>
+                </ul>
+
+                <div class="reviews-description">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi magna, elementum et risus et, iaculis 
+                        feugiat tortor. Phasellus consectetur auctor orci in ultrices. Curabitur ornare libero ut.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="Accessibility-container">
+            <p class="general-container-title">Accessibility Features</p>
+
+            <div class="summary">
+                <h3><i class="fa-regular fa-eye"></i> Visuals</h3>
+                <p>Clean text, Flexible text size</p>
+                <span>^</span>
+            </div>
+            <ul class="details hidden">
+                <li>
+                    <h4>Clean text</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor est vestibulum.
+                    </p>
+                    
+                </li>
+
+                <li>
+                    <h4>Flexible text size</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor est vestibulum.
+                    </p>
+                </li>
+            </ul>
+
+            <div class="summary">
+                <h3><i class="fa-solid fa-volume-high"></i>Sound</h3>
+                <p>Change audio settings, 3D audio</p>
+                <span>^</span>
+            </div>
+            <ul class="details hidden">
+                <li>
+                    <h4>Change audio settings</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor est vestibulum.
+                    </p>
+                </li>
+
+                <li>
+                    <h4>3D audio</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor est vestibulum.
+                    </p>
+                </li>
+            </ul>
+
+            <div class="summary">
+                <h3><i class="fa-solid fa-gamepad"></i> Controls</h3>
+                <p>Control Remapping, Camera motion settings</p>
+                <span>^</span>
+            </div>
+            <ul class="details hidden">
+                <li>
+                    <h4>Control Remapping</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor est vestibulum.
+                    </p>
+                </li>
+
+                <li>
+                    <h4>Camera motion settings</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor est vestibulum.
+                    </p>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="legal-info-container">
+
+            <p class="general-container-title">Legal Info</p>
+
+            <div class="legal-description">
+
+                <ul>
+                    <li>- Lorem ipsum</li>
+                    <li>- dolor sit amet</li>
+                    <li>- sapien odio tempor</li>
+                    <li>- Donec sit amet mi eget ligula</li>
+                </ul>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum ante nibh, in molestie mauris mollis 
+                    ultrices. Vivamus porttitor commodo hendrerit. Aenean pulvinar tortor non magna cursus vehicula. Duis eleifend, 
+                    eros non bibendum dapibus, sapien odio tempor ex, at accumsan quam erat in mi. Ut tristique dapibus felis eu 
+                    consectetur. Aenean volutpat sem vitae ipsum scelerisque eleifend. Class aptent taciti sociosqu ad litora 
+                    torquent per conubia nostra, per inceptos himenaeos. Donec sit amet mi eget ligula finibus porttitor. Nunc 
+                    mattis sit amet elit eget vestibulum.
+                </p>
+                <p>
+                    Phasellus ut nunc sit amet augue condimentum varius et a metus. Mauris euismod felis felis, sit amet accumsan 
+                    quam volutpat at. Maecenas nunc sapien, dictum fermentum augue vel, varius mollis nulla. Orci varius natoque 
+                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tempor pretium eleifend. Aliquam 
+                    euismod justo placerat vulputate facilisis. Phasellus id condimentum leo, et mattis quam. Nulla facilisi. 
+                    Vivamus nec viverra massa. Mauris ultrices quis libero at eleifend. Aliquam fermentum bibendum vestibulum.
+                </p>
+                <p>
+                    Mauris sagittis tellus magna, at ultricies orci porta in. Curabitur scelerisque enim eget mi auctor ultrices. 
+                    Nullam suscipit odio eget bibendum ultrices. Nunc eleifend odio sed magna ultrices vulputate. Lorem ipsum dolor 
+                    sit amet, consectetur adipiscing elit. Phasellus luctus auctor purus id sodales. Quisque efficitur lobortis nibh 
+                    eget dignissim. Sed scelerisque tortor ut magna auctor aliquam. Sed porta vel ipsum eu euismod. Ut tincidunt 
+                    rutrum ullamcorper. Donec pellentesque ac enim et congue. Etiam lobortis, dui ut dictum aliquam, nisl nisl 
+                    blandit sem, quis aliquet magna nulla nec dui. Duis cursus lobortis justo sed posuere.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="game-description">
+            <ul class="game-description-list">
+                <li>
+                    <p>Platforms:</p>
+                    <span>PC, Lorem Ipsum 5</span>
+                </li>
+                <li>
+                    <p>Release Date:</p>
+                    <span>03/12/2016</span>
+                </li>
+                <li>
+                    <p>voices:</p>
+                    <span>English, Japanese</span>
+                </li>
+                <li>
+                    <p>Genre:</p>
+                    <span>Horror, Hack and Slash</span>
+                </li>
+            </ul>
+
+            <div class="game-description-text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Expedita aut voluptatibus dignissimos eos dolores nam inventore, corrupti eum reiciendis voluptas. 
+                    Tempora quae fugit, explicabo corporis veniam porro quidem voluptate necessitatibus.
+                </p>
+                <p>
+                    Phasellus ut nunc sit amet augue condimentum varius et a metus. Mauris euismod felis felis, sit amet accumsan 
+                    quam volutpat at. Maecenas nunc sapien, dictum fermentum augue vel, varius mollis nulla. Orci varius natoque 
+                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tempor pretium eleifend. Aliquam 
+                    euismod justo placerat vulputate facilisis.
+                </p>
+                <p>
+                    Expedita aut voluptatibus dignissimos eos dolores nam inventore, corrupti eum reiciendis voluptas. 
+                    Tempora quae fugit, explicabo corporis veniam porro quidem voluptate necessitatibus.
+                </p>
+            </div>
+        </section>
+
+        <div class="publisher-copyright">
+            <p>©2016-2022 SILVER GAMES CO., LTD.</p>
+        </div>
+        
+    </main>
+
+    <footer>
+        
+        <div class="footer-header">
+            <div class="diamond"></div>
+        </div>
+
+        <div class="footer-links-container">
+            <ul class="footer-lists terms-list">
+                <li>Terms of service</li>
+                <li>Privacy Policy</li>
+                <li>Site Map</li>
+                <li>Support</li>
+            </ul>
+
+            <ul class="footer-lists social-media-list">
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Youtube</li>
+                <li>Mobile App</li>
+            </ul>
+        </div>
+
+        <div class="Diamond-copyright">
+            <p>
+                ©<span id="current-time">[Current-year]</span> Diamond Entertainment Inc. All rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+</body>
+</html>
