@@ -1,7 +1,6 @@
 /* Summaries arrows animation */
 
 const summaries = document.querySelectorAll(".summary");
-console.log(summaries);
 const details = document.querySelectorAll(".details");
 const summariesArrows = document.querySelectorAll(".summary span");
 
